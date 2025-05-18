@@ -57,8 +57,9 @@ go run filename.go
 
 cd basics
 go run hello_world.go
+---
 
- ## 🌱 Current Topics I'm Working On
+### 🌱 **Current Topics I'm Working On**
 
 - Print statements and comments  
 - Variables, constants, and data types  
@@ -70,7 +71,7 @@ go run hello_world.go
 
 ---
 
-## ✍️ Notes to Myself
+## ✍️ **Notes to Myself**
 
 This repo is meant to help me grow as a Go developer. It may include:
 
@@ -81,19 +82,19 @@ This repo is meant to help me grow as a Go developer. It may include:
 
 ---
 
-## 🤝 Contributions
+## 🤝 **Contributions**
 
 This is a **personal learning repo**, but if you’re also learning Go and want to share thoughts or improvements, feel free to fork or open an issue.
 
 ---
 
-## 📌 License
+## 📌 **License**
 
 This project is licensed under the **MIT License** – feel free to use the code for learning or experimenting.
 
 ---
 
-## 🙋‍♂️ Author
+## 🙋‍♂️ **Author**
 
 **Silas Odero**  
 💼 Aspiring Software Developer | 💻 Learning Golang  
