@@ -58,41 +58,43 @@ go run filename.go
 cd basics
 go run hello_world.go
 
- ##Current Topics I'm Working On
- - Print statements and comments
+ ## 🌱 Current Topics I'm Working On
 
- - Variables, constants, and data types
-
- - Control flow: if, for, switch
-
- - Functions and error handling
-
- - Structs and interfaces
-
- - File I/O
-
- - Concurrency with goroutines
-
-
- ## ✍️ Notes to Myself
-This repo is meant to help me grow as a Go developer. It may include:
-
-Unfinished or rough code as I learn
-
-Comments and explanations to future me
-
-Mistakes (that I’ll learn from!)
-
-Step-by-step improvements over time
+- Print statements and comments  
+- Variables, constants, and data types  
+- Control flow: if, for, switch  
+- Functions and error handling  
+- Structs and interfaces  
+- File I/O  
+- Concurrency with goroutines  
 
 ---
-##🤝 Contributions
-This is a personal learning repo, but if you’re also learning Go and want to share thoughts or improvements, feel free to fork or open an issue
+
+## ✍️ Notes to Myself
+
+This repo is meant to help me grow as a Go developer. It may include:
+
+- Unfinished or rough code as I learn  
+- Comments and explanations to future me  
+- Mistakes (that I’ll learn from!)  
+- Step-by-step improvements over time  
+
+---
+
+## 🤝 Contributions
+
+This is a **personal learning repo**, but if you’re also learning Go and want to share thoughts or improvements, feel free to fork or open an issue.
+
+---
 
 ## 📌 License
-This project is licensed under the MIT License – feel free to use the code for learning or experimenting.
+
+This project is licensed under the **MIT License** – feel free to use the code for learning or experimenting.
+
+---
 
 ## 🙋‍♂️ Author
-Silas Odero
-💼 Aspiring Software Developer | 💻 Learning Golang
-📫 GitHub: github.com/otiaudi
+
+**Silas Odero**  
+💼 Aspiring Software Developer | 💻 Learning Golang  
+📫 GitHub: [github.com/otiaudi](https://github.com/otiaudi)
