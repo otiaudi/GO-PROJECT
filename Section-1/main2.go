@@ -62,6 +62,39 @@ STRUCTURE
 		return c.name
 	}
 */
+
+
+/*INTERFACES
+	Interfaces are used to define a contract that a struct must implement.
+	Interfaces are used to define a set of methods that a struct must implement.
+	Interfaces are used to enforce a style of programming that is more flexible and extensible.
+	It helps you when you dont know the type of the data you are going to use.
+	*/
+type Car interface {
+		Drive()
+		//Stop()
+}
+	type Lambo struct{
+		lamboModel string
+	}
+
+	type Toyota struct{
+		toyotaModel string
+	}
+
+	func(l *Lambo) Drive(){
+		fmt.Println("Lambo is moving")
+		fmt.Println(l.lamboModel)
+	}
+	
+	func(t *Toyota) Drive(){
+		fmt.Println("Toyota is on the move")
+		fmt.Println("it is of type:", t.toyotaModel)
+	}
+	func Anything(x interface{}){
+		fmt.Println(x)
+		}
+
 func main(){
 /*	fmt.Println("Arrays")
 	todo()
@@ -100,5 +133,21 @@ func main(){
 	fmt.Println("The car name is", c.name)
 */
 
+ l:=Lambo{"K234LONG20"}
+ t:=Toyota{"CMT1245SLIN"}
 
+ l.Drive()
+ t.Drive()
+ 
+ fmt.Println("this is")
+ Anything("Silas Odero")
+ Anything(5)
+ Anything(5.5)
+ Anything(true)
+ Anything([]int{1,2,3,4,5})
+ Anything(map[string]int{"one":1, "two":2})
+ Anything(struct{Person string}{"Silas Odero"})
 }
+
+
+
