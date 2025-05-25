@@ -23,7 +23,7 @@ func main() {
 //  allowing it to execute concurrently
 //  with the main function.
 //  The main function waits
-//  for a few seconds before pinting its
+//  for a few seconds before printing its
 //  completion message.
 // Goroutines are lightweight threads
 //  managed by the Go runtime. 
